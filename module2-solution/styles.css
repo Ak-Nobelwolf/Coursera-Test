@@ -1,0 +1,95 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set font and background colors */
+body {
+	font-family: “Comic Sans MS”, “Comic Sans”, cursive; 
+	background-color: #f5f5f5;
+}
+
+/* Set page heading style */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Set main section style */
+main {
+	margin: 20px;
+  display: flex;
+	flex-wrap: wrap;
+}
+
+/* Set section title region style */
+section {
+	position: relative;
+	background-color: #fff;
+	border: 2px solid #000;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+p{
+  padding-top:20px ;
+}
+
+section h2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	padding:0px;
+	margin: 0;
+  width:150px;
+  height: 40px;
+  text-align: center;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+section h2.one {
+  background-color: #ec8dc1;
+  
+} 
+section h2.two {
+  background-color: #e67272;
+} 
+section h2.three {
+  background-color: #ebb360;
+} 
+
+/* Set desktop layout */
+@media (min-width: 992px) {
+	section {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/* Set tablet layout */
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken, #beef {
+		float: left;
+		width: 50%; 
+	}
+
+	#sushi {
+		clear: both;
+		width: 100%;
+	}
+}
+
+/* Set mobile layout */
+@media (max-width: 767px) {
+	section {
+		width: 100%;
+	}
+
+}
