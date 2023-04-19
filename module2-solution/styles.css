@@ -30,13 +30,26 @@ main {
 /* Set section title region style */
 section {
 	position: relative;
-	background-color: #fff;
+	/* background-color: #fff; */
 	border: 2px solid #000;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
 }
+
+section#chicken {
+	background-color: #bbb1b1;
+}
+
+section#beef {
+	background-color: #e6d4d4;
+}
+
+section#sushi {
+	background-color: #dba6a6;
+}
+
 
 p {
    padding-top:20px ;
@@ -78,7 +91,7 @@ section h2.three {
 		float: left;
 		width: 31.00%;
 	}
-	
+
 	#sushi {
 		float: left;
 		width: 31.00%;
