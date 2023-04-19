@@ -30,8 +30,7 @@ main {
 /* Set section title region style */
 section {
 	position: relative;
-	/* background-color: #fff; */
-	border: 2px solid #000;
+	border: 1px solid #000;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -65,8 +64,8 @@ section h2 {
 	width:150px;
 	height: 40px;
 	text-align: center;
-	border-left: 2px solid #000;
-	border-bottom: 2px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 section h2.one {
