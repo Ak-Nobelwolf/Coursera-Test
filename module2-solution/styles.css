@@ -16,14 +16,14 @@ header {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
-	margin: 20px;
+	margin: 30px;
 	text-align: center;
 }
 
 /* Set main section style */
 main {
 	margin: 20px;
- 	display: flex;
+  	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -33,11 +33,13 @@ section {
 	background-color: #fff;
 	border: 2px solid #000;
 	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 20px;
 }
 
 p {
-  	padding-top:20px ;
+   padding-top:20px ;
 }
 
 section h2 {
@@ -55,35 +57,45 @@ section h2 {
 }
 
 section h2.one {
-
-    background-color: #ec8dc1;
+  	background-color: #ec8dc1;
   
 } 
 section h2.two {
-    background-color: #e67272;
+  	background-color: #e67272;
 } 
 section h2.three {
-    background-color: #ebb360;
+  	background-color: #ebb360;
 } 
 
 /* Set desktop layout */
 @media (min-width: 992px) {
-	section {
+	#chicken {
 		float: left;
-		width: 33.33%;
+		width: 31.00%;
 	}
+
+	#beef {
+		float: left;
+		width: 31.00%;
+	}
+	
+	#sushi {
+		float: left;
+		width: 31.00%;
+	}
+	
 }
 
 /* Set tablet layout */
 @media (min-width: 768px) and (max-width: 991px) {
 	#chicken, #beef {
 		float: left;
-		width: 50%; 
+		width: 47.5%;
 	}
 
 	#sushi {
 		clear: both;
-		width: 100%;
+		width: 97.5%;
 	}
 }
 
