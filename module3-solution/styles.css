@@ -1,0 +1,102 @@
+  /* Custom styles for the page */
+    body {
+      font-family: “Comic Sans MS”, “Comic Sans”, cursive; 
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #f1cdcd;
+      border: none;
+      border-radius: 0;
+      margin-bottom: 0;
+      min-height: 50px;
+      padding: 15px 0;
+    }
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 35px;
+    }
+    .navbar-header button.navbar-toggle {
+      margin-top: 0px;
+      border: 2px solid black;
+    }
+    .navbar-header .icon-bar {
+      background-color: #333;
+      border-radius: 1px;
+      display: block;
+      height: 2px;
+      margin: 4px auto;
+      width: 22px;
+      border: 1px solid black;
+    }
+    .navbar-header .icon-bar:first-child {
+      margin-top: 0;
+    }
+    .navbar-header .icon-bar:last-child {
+      margin-bottom: 0;
+    }
+    .dropdown-menu {
+      background-color: #fff;
+      border: none;
+      box-shadow: none;
+      left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      z-index: 9999;
+    }
+    .dropdown-menu > li > a {
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 15px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .dropdown-menu > li > a:hover {
+      background-color: #F5F5F5;
+      color: #333;
+    }
+    .page-heading {
+      font-size: 35px;
+      font-weight: bold;
+      margin: 20px 10;
+    }
+    .section-chicken {
+      background-color: #f5c3c3;
+      margin: 20px;
+      padding: 20px;
+      font-size: large;
+    }
+    .section-beef {
+        background-color: #ccb1b1;
+        margin: 20px;
+        padding: 20px;
+        font-size: large;
+    }
+    .section-sushi {
+        background-color: #f7a3a3;
+        margin: 20px;
+        padding: 20px;
+        font-size: large;
+    }
+    .section-chicken h2,.section-beef h2,.section-sushi h2 {
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 0px;
+      text-align: center;
+    }
+    #navbar-menu{
+        color: black;
+        background-color: #f1cdcd;
+        font-size: medium;
+    } 
+    ul, li a {
+        border:1px solid black;
+        background-color: #fff;
+    }
+    
+    
