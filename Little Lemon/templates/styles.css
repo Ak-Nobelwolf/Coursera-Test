@@ -1,0 +1,139 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem 5%;
+}
+
+header img {
+    width: 40rem; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: rgb(28, 29, 28);
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: white;
+    font-size: x-large;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+section.promotional-banner {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+.promotional-banner .banner-image {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.promotional-banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.promotional-banner .banner-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.promotional-banner .banner-text p {
+    font-size: 16px;
+}
+
+.promotional-banner .banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+section.columns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+article {
+    flex: 0 0 calc(33.33% - 2rem);
+    padding-bottom: 1rem;
+    border: 1px solid #ccc;
+    background-color: rgb(212, 227, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+article p{
+    padding: 1rem;
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #f5f5f5;
+}
+
+footer .logo-column {
+    flex: 1;
+    padding: 2rem;
+    
+}
+
+footer img {
+    width: 3rem;
+    height: auto;
+}
+
+footer .copy-column {
+    flex: 1;
+    padding: 2rem;
+    text-align: right;
+}
