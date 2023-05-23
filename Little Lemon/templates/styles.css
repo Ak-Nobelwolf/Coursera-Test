@@ -2,97 +2,105 @@ body {
     background-color: #EDEFEE;
     font-family: 'Markazi Text', serif;
     margin: 3rem 5%;
-}
-
-header img {
-    width: 40rem; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+  }
+  
+  header img {
+    width: 40rem;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 2rem;
-}
-
-nav {
+  }
+  
+  nav {
     background-color: rgb(28, 29, 28);
     height: 50px;
     border-radius: 20px;
     padding-top: 5px;
     padding-bottom: 8px;
-
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     text-align: center;
-}
-
-nav li {
+  }
+  
+  nav li {
     display: inline-block;
     align-items: center;
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     padding: 1rem 1rem;
     color: white;
     font-size: x-large;
-}
-
-nav a.active {
+    transition: color 0.3s; /* Add transition for smooth effect */
+  }
+  
+  nav a:hover {
+    color: yellow; /* Change the color on hover */
+  }
+  
+  nav a.active {
     font-weight: bold;
-}
-
-main {
+  }
+  
+  main {
     margin-top: 2rem;
-}
-
-section.promotional-banner {
+  }
+  
+  section.promotional-banner {
     text-align: center;
     background-color: #f5f5f5;
     padding: 2rem;
-}
-
-.promotional-banner .banner-image {
+  }
+  
+  .promotional-banner .banner-image {
     position: relative;
     display: inline-block;
-    
-}
-
-.promotional-banner .banner-text {
+  }
+  
+  .promotional-banner .banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-}
-
-.promotional-banner .banner-text h2 {
+  }
+  
+  .promotional-banner .banner-text h2 {
     font-size: 24px;
     margin-bottom: 10px;
-}
-
-.promotional-banner .banner-text p {
+  }
+  
+  .promotional-banner .banner-text p {
     font-size: 16px;
-}
-
-.promotional-banner .banner-image img {
+  }
+  
+  .promotional-banner .banner-image img {
     width: 100%;
     height: auto;
     border-radius: 2rem;
-}
-
-section.columns {
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .promotional-banner .banner-image img:hover {
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  
+  section.columns {
     display: flex;
     justify-content: center;
     gap: 2rem;
-}
-
-article {
+  }
+  
+  article {
     flex: 0 0 calc(33.33% - 2rem);
     padding-bottom: 1rem;
     border: 1px solid #ccc;
@@ -102,38 +110,54 @@ article {
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-}
-
-article p{
+    transition: transform 0.3s, background-color 0.3s; /* Add transitions for smooth effect */
+  }
+  
+  article:hover {
+    transform: translateY(-5px); /* Move up on hover */
+    background-color: rgb(149, 202, 233); /* Change background color on hover */
+  }
+  
+  article p {
     padding: 1rem;
-}
-
-article img {
+  }
+  
+  article img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     justify-content: center;
-}
-
-footer {
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+  
+  article img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  footer {
     display: flex;
     margin-top: 2rem;
     background-color: #f5f5f5;
-}
-
-footer .logo-column {
+  }
+  
+  footer .logo-column {
     flex: 1;
     padding: 2rem;
-    
-}
-
-footer img {
+  }
+  
+  footer img {
     width: 3rem;
     height: auto;
-}
-
-footer .copy-column {
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+  
+  footer img:hover {
+    transform: rotate(360deg); /* Rotate on hover */
+  }
+  
+  footer .copy-column {
     flex: 1;
     padding: 2rem;
     text-align: right;
-}
+  }
+  
