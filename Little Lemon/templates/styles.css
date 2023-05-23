@@ -115,7 +115,7 @@ body {
   
   article:hover {
     transform: translateY(-5px); /* Move up on hover */
-    background-color: rgb(149, 202, 233); /* Change background color on hover */
+    background-color: rgb(168, 176, 180); /* Change background color on hover */
   }
   
   article p {
@@ -137,7 +137,12 @@ body {
   footer {
     display: flex;
     margin-top: 2rem;
-    background-color: #f5f5f5;
+    background-color: #bde0eb;
+    border-radius: 2rem;
+  }
+  
+  footer:hover{
+    background-color: #a6dbeb;
   }
   
   footer .logo-column {
